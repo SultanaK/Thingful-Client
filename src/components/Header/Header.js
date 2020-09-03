@@ -50,7 +50,7 @@ export default class Header extends Component {
         {TokenService.hasAuthToken()
           ? this.renderLogoutLink()
           : this.renderLoginLink()}
-      </nav>
+        </nav>
 
       <span className='Header__tagline--narrow'>Rate all the things.</span>
     </>
